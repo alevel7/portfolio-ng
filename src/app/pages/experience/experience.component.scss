@@ -1,0 +1,55 @@
+.timeline {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+}
+.timeline-item{
+  border-left: 1px solid white;
+  padding-left: 30px;
+}
+@media screen and (min-width: 500px) {
+  .timeline {
+    width: 80%;
+  }
+
+}
+
+.arrow-label {
+  display: inline-block;
+  background-color: #555555; /* Dark grey color */
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+  position: relative;
+  font-family: Arial, sans-serif;
+  margin-right: 40px;
+}
+
+.arrow-label::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -20px; /* Adjusts arrow position */
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent; /* Half of the height of the label */
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #555555; /* Same color as label */
+}
+
+.arrow-label::before {
+    content: "";
+    position: absolute;
+    background-color: #f0bf6c;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    right: -60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px yellow, -2px -2px 10px yellow;
+}
+
+.experience {
+  padding-bottom: 20px;
+}
