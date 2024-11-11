@@ -1,0 +1,96 @@
+{
+  "firstName": "Taiwo",
+  "lastName": "kazeem",
+  "email": "kazeemtaiwo@outlook.com",
+  "phone": "+2348056965067",
+  "address": "Lagos, Nigeria",
+  "about": "A seasoned Full-Stack Developer with over 5 years of experience across consulting, health-tech, and logistics sectors. I am proficient in both relational databases—such as MySQL, Microsoft SQL Server, and PostgreSQL—as well as non-relational databases like MongoDB. My development experience includes building e-commerce platforms, company-specific dashboards, and APIs that power mobile applications.  My core programming languages are Python and JavaScript. For front-end development, I primarily work with Angular, and on the back end, I utilize Flask, Django, Node.js, and NestJS to create robust services. Known for my collaboration skills and team-oriented mindset, I am always eager to learn and continuously enhance my technical expertise.",
+  "socials": {
+    "github": "https://github.com/alevel7",
+    "twitter": "https://x.com/kazeem_tk",
+    "linkedin": "https://www.linkedin.com/in/taiwo-kazeem-595449159/"
+  },
+  "projects": [
+    {
+      "title": "Angular Portfolio"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Python Developer",
+      "company": "kobo360",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia atque nemo maiores nisi neque recusandae voluptas pariatur necessitatibus velit quaerat."
+    },
+    {
+      "title": "Senior Python Developer",
+      "company": "kobo360",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia atque nemo maiores nisi neque recusandae voluptas pariatur necessitatibus velit quaerat."
+    }
+  ],
+  "skills": {
+    "frontend": [
+      {
+        "name": "Angular",
+        "logo": "https://cdn.worldvectorlogo.com/logos/angular-icon.svg"
+      },
+      {
+        "name": "React",
+        "logo": "https://cdn.worldvectorlogo.com/logos/react-1.svg"
+      },
+      {
+        "name": "Javascript",
+        "logo": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+      },
+      {
+        "name": "Typescript",
+        "logo": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+      },
+      {
+        "name": "Material UI",
+        "logo": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
+      },
+      {
+        "name": "Docker",
+        "logo": "https://cdn.worldvectorlogo.com/logos/docker-4.svg"
+      },
+      {
+        "name": "Ionic",
+        "logo": "https://cdn.worldvectorlogo.com/logos/ionic-1.svg"
+      },
+      {
+        "name": "Tailwindcss",
+        "logo": "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Python",
+        "logo": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+      },
+      {
+        "name": "Django",
+        "logo": "https://cdn.worldvectorlogo.com/logos/django.svg"
+      },
+      {
+        "name": "Flask",
+        "logo": "https://cdn.worldvectorlogo.com/logos/flask.svg"
+      },
+      {
+        "name": "Nestjs",
+        "logo": "https://cdn.worldvectorlogo.com/logos/nestjs.svg"
+      },
+      {
+        "name": "MongoDb",
+        "logo": "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+      },
+      {
+        "name": "Postgres Db",
+        "logo": "https://cdn.worldvectorlogo.com/logos/postgresql.svg"
+      },
+      {
+        "name": "Nodejs",
+        "logo": "https://cdn.worldvectorlogo.com/logos/nodejs-1.svg"
+      }
+    ]
+  }
+}

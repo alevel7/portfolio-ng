@@ -1,0 +1,38 @@
+export interface Profile {
+  firstName:  string;
+  lastName:   string;
+  email:      string;
+  phone:      string;
+  address:    string;
+  socials:    Socials;
+  about:      string;
+  projects:   Project[];
+  experience: Experience[];
+  skills:     Skills;
+}
+
+export interface Experience {
+  title:       string;
+  company:     string;
+  description: string;
+}
+
+export interface Project {
+  title: string;
+}
+
+export interface Skills {
+  frontend: End[];
+  backend:  End[];
+}
+
+export interface End {
+  name: string;
+  logo: string;
+}
+
+export interface Socials {
+  github:   string;
+  twitter:  string;
+  linkedin: string;
+}
