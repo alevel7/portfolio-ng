@@ -12,7 +12,39 @@
   },
   "projects": [
     {
-      "title": "Angular Portfolio"
+      "title": "Haulsight",
+      "website":"https://stage.haulsight.io",
+      "screenshot": "/images/haulsight.png",
+      "info": "This project was born out of the need to help partner companies manage their fleets, inventories, customers etc. It provide both quick and detail overview including graphical analytics of all expense and operations.",
+      "techStack":"Reactjs | Tailwindcss | Nodejs | Tanstack Query | vite | Mongodb | Typescript "
+    },
+    {
+      "title": "Squad",
+      "website":"https://squad.stage.kobo360.com/",
+      "screenshot": "/images/squad.png",
+      "info": "Squad is an enterprise administrative web application used to manage information about customers, partners, inventories, payments, staff at kobo360.",
+      "techStack": "Angular | Angular Material | NGXS | nodejs | Mongodb | AWS | Typescript"
+    },
+    {
+      "title": "Smart Clinic",
+      "website": "https://clinic.dev1.primedehealth.org",
+      "screenshot": "/images/smart-clinic.png",
+      "info":"Smart clinic is an hospital management web application that is used by many public and private hospitals in Nigeria and beyond. It is used to manage daily oprations of an hospital including doctors,nurses, staffs,patients,appointments,consultations,payments,clinics,pharmacy etc",
+      "techStack":"Angular | Angular Material | nodejs | Mongodb | AWS | Typescript"
+    },
+    {
+      "title": "Workstarplace",
+      "website": "https://glistening-zabaione-49e753.netlify.app/",
+      "screenshot": "/images/workplacestar.png",
+      "info": "This project is Workstarplace goto website to find out all information about who they are and what they do.",
+      "techStack": "Nodejs | javascript | Tailwindcss"
+    },
+    {
+      "title": "Netflix clone",
+      "website":"https://stalwart-puppy-db9983.netlify.app/",
+      "screenshot": "/images/netflix.png",
+      "info": "This project is a clone of netflix website powered by IMDB api and youtube. It is a work in progress but you can get all the latest movies and tv shows",
+      "techStack": "Angular | Tailwindcss | Nodejs | javascript | IMDB | Typescript "
     }
   ],
   "experience": [
@@ -92,5 +124,6 @@
         "logo": "https://cdn.worldvectorlogo.com/logos/nodejs-1.svg"
       }
     ]
-  }
+  },
+  "certifications":[]
 }

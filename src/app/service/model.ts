@@ -19,6 +19,10 @@ export interface Experience {
 
 export interface Project {
   title: string;
+  website: string;
+  screenshot: string;
+  info: string;
+  techStack:string;
 }
 
 export interface Skills {
