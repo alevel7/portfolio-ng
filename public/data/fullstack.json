@@ -26,13 +26,6 @@
       "techStack": "Angular | Angular Material | NGXS | nodejs | Mongodb | AWS | Typescript"
     },
     {
-      "title": "Smart Clinic",
-      "website": "https://clinic.dev1.primedehealth.org",
-      "screenshot": "/images/smart-clinic.png",
-      "info":"Smart clinic is an hospital management web application that is used by many public and private hospitals in Nigeria and beyond. It is used to manage daily oprations of an hospital including doctors,nurses, staffs,patients,appointments,consultations,payments,clinics,pharmacy etc",
-      "techStack":"Angular | Angular Material | nodejs | Mongodb | AWS | Typescript"
-    },
-    {
       "title": "Workstarplace",
       "website": "https://glistening-zabaione-49e753.netlify.app/",
       "screenshot": "/images/workplacestar.png",
@@ -45,6 +38,13 @@
       "screenshot": "/images/netflix.png",
       "info": "This project is a clone of netflix website powered by IMDB api and youtube. It is a work in progress but you can get all the latest movies and tv shows",
       "techStack": "Angular | Tailwindcss | Nodejs | javascript | IMDB | Typescript "
+    },
+    {
+      "title": "Smart Clinic",
+      "website": "https://clinic.dev1.primedehealth.org",
+      "screenshot": "/images/smart-clinic.png",
+      "info": "Smart clinic is an hospital management web application. It manages doctors,nurses, staffs,patients,appointments,consultations,payments,clinics,pharmacy etc",
+      "techStack": "Angular | Angular Material | nodejs | Mongodb | AWS | Typescript"
     }
   ],
   "experience": [

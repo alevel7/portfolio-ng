@@ -1,9 +1,9 @@
 <section class="about bg-[#31333c] p-3 text-white md:p-20" id="about">
   <h2 class="my-5 md:mb-10 text-2xl md:text-5xl font-secondary text-center">Portfolio</h2>
-  <ul class="grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))]  gap-3">
+  <div class="flex flex-col md:flex-row md:flex-wrap gap-1 justify-center">
     @for (project of profileData()?.projects; track $index) {
-    <li>
-      <figure class="w-[calc(100%-2rem)] h-full flex items-center p-3 gap-3">
+
+      <figure class=" h-full flex items-center p-2 gap-3 lg:w-2/5">
         <img class="size-20 fancy-border "
           [src]="project.screenshot"
           alt="" srcset="">
@@ -15,10 +15,10 @@
           <p>{{project.info}}</p>
         </figcaption>
       </figure>
-    </li>
+
     }
 
-  </ul>
+  </div>
 
   <div class="flex justify-center items-center mt-5">
     <button type="button" class="bg-secondary px-5 py-2 rounded-lg" (click)="goto()">View More</button>
