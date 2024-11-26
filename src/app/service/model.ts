@@ -14,7 +14,10 @@ export interface Profile {
 export interface Experience {
   title:       string;
   company:     string;
-  description: string;
+  description: string[];
+  skillset:    string;
+  startDate:   string;
+  endDate:     string;
 }
 
 export interface Project {

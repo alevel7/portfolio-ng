@@ -49,14 +49,85 @@
   ],
   "experience": [
     {
-      "title": "Senior Python Developer",
+      "title": "Software Engineer II",
       "company": "kobo360",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia atque nemo maiores nisi neque recusandae voluptas pariatur necessitatibus velit quaerat."
+      "skillset": "Angular | Reactjs | Nodejs | Typescript | Docker | Mongodb",
+      "startDate":"Nov 2021",
+      "endDate":"Till date",
+      "description": [
+        " collaborate with stakeholders to image, design, develop, test, and launch software that impacts our customers and inspires my peers.",
+        "Independently clarify technical requirements, assess development estimates, and apply broad range of design approaches. Review the code of other team members and provide constructive direction",
+        "I work with existing toolsets while bringing in new ideas and approaches into the team.",
+        "Work with product owners to evaluate requirements and create a task backlog.",
+        "Make technology recommendations that support optimal construction, maintenance, and performance.",
+        "Create sophisticated, imaginative, and efficient front- and back-end solutions for large-scale complex applications.",
+        "Collaborate with Accounting, Marketing and Product Managers to design, implement and test software applications"
+      ]
     },
     {
-      "title": "Senior Python Developer",
-      "company": "kobo360",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia atque nemo maiores nisi neque recusandae voluptas pariatur necessitatibus velit quaerat."
+      "title": "Contract Frontend developer",
+      "company": "Itranscript",
+      "skillset": "Angular | Angular Material | Typescript | Tailwindcss",
+      "startDate": "september 2024",
+      "endDate": "October 2024",
+      "description": [
+        "Translate UI design to code utilizing the latest features in Angular and Typescript",
+        "Create responsive and user-friendly interfaces using Angular Material",
+        "Collaborate with cross-functional teams to design and implement user interfaces",
+        "Implement responsive design using Tailwindcss",
+        "Integrate APIs and services to fetch data and display it on the UI"
+      ]
+    },
+    {
+      "title": "Backend Django developer",
+      "company": "Mabilla",
+      "skillset": "Django | python | Docker | Postgres | Django Rest framework",
+      "startDate": "February 2023",
+      "endDate": "November 2023",
+      "description": [
+        "I developed the entire backend infrastructure that powered a mobile banking app",
+        "I developed apis based on business requirements and integrated with internal and external apis to power the mobile application",
+        "I also participated in maintaining existing code based and improving",
+        "Part of the improvement I did was implementing unit testing in Django and Python",
+        "I also took part in a number of ideation session along with other developers to come with possible best solutions to challenges at hand"
+      ]
+    },
+    {
+      "title": "Full Stack developer",
+      "company": "Primedehealth",
+      "skillset": "Angular | Angular Material | Typescript | Nodejs | Nestjs | Tailwindcss | Mongodb",
+      "startDate":"July 2022",
+      "endDate":"June 2024",
+      "description": [
+        "Collaborating with other developers to brainstorm on the how-to of new solutions intended to be provided by the company.",
+        "Implement well-structured and well-documented APIs as per business requirements.",
+        "Create engaging web applications that helps clients derive maximum experience from their business operations."
+      ]
+    },
+    {
+      "title": "Backend developer",
+      "company": "Primedehealth",
+      "skillset": "Nodejs | Nestjs | Mongodb | PostgresDb | Typescript | Docker | Tailwindcss",
+      "startDate":"Jan 2021",
+      "endDate":"June 2022",
+      "description": [
+        "Collaborating with other developers to brainstorm on the how-to of new solutions intended to be provided by the company.",
+        "Implement well-structured and well-documented APIs as per business requirements.",
+        "Create engaging web applications that helps clients derive maximum experience from their business operations."
+      ]
+    },
+    {
+      "title": "Backend Developer",
+      "company": "Cary Technologies limited",
+      "skillset": "Nodejs | Docker | PostgresDb | Typescript",
+      "startDate":"september 2020",
+      "endDate":"Till date",
+      "description": [
+        "I brainstorm with the team on every new feature to be added, the required technologies and a timeline for the features.",
+        "Build backend services used via APIs to power front-end applications and collaborate with the front-end engineers to ensure ease of use of the backend services provided ",
+        "Implement database design for new features keeping in mind the various principles for proper database design ",
+        "Lead the team as a whole to ensure project new features are deployed in time and on time and in line with requirements"
+      ]
     }
   ],
   "skills": {

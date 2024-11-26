@@ -1,29 +1,22 @@
-<section class="bg-primary experience">
-  <h4
-    class="my-5 md:mb-10 text-2xl md:text-5xl font-secondary text-white text-center md:text-left md:relative -top-12 md:ml-10 font-bold">
-    Experience</h4>
-
-  <section class="timeline text-white">
-    <div class="hidden md:block">
-      <p class="arrow-label">2021</p>
-    </div>
+<section id="experience" class="experience-section">
+  <h2 class="section-title">Work Experience</h2>
+  <div class="experience-timeline">
+    @for (experience of experiences(); track $index) {
     <div class="timeline-item">
-      <h4 class="text-2xl">Senior Python Developer</h4>
-      <p>kobo360</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia atque nemo maiores nisi neque recusandae
-        voluptas pariatur necessitatibus velit quaerat.</p>
+      <span class="timeline-dot"></span>
+      <div class="timeline-content">
+        <h3 class="job-title">{{experience.title}}</h3>
+        <p class="company-name">{{experience.company}}</p>
+        <p class="job-duration">{{experience.startDate}} - {{experience.endDate}}</p>
+        <ul class="job-responsibilities">
+          @for (responsibility of experience.description; track $index) {
+          <li>{{responsibility}}</li>
+          }
+        </ul>
+      </div>
     </div>
-  </section>
+    }
 
-  <section class="timeline text-white">
-    <div class="hidden md:block">
-      <p class="arrow-label">2021</p>
-    </div>
-    <div class="timeline-item">
-      <h4 class="text-2xl">Senior Python Developer</h4>
-      <p>kobo360</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia atque nemo maiores nisi neque recusandae
-        voluptas pariatur necessitatibus velit quaerat.</p>
-    </div>
-  </section>
+
+  </div>
 </section>
