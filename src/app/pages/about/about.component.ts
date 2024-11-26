@@ -6,11 +6,12 @@ import { PortfolioComponent } from "../portfolio/portfolio.component";
 import { ContactComponent } from "../contact/contact.component";
 import { ExperienceComponent } from "../experience/experience.component";
 import { GeneralService } from '../../service/general.service';
+import { SkillsComponent } from '../skills/skills.component';
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [RouterModule, PortfolioComponent, ContactComponent, ExperienceComponent],
+  imports: [RouterModule, PortfolioComponent, ContactComponent, ExperienceComponent, SkillsComponent],
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss'
 })
