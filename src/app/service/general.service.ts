@@ -11,6 +11,6 @@ export class GeneralService {
   constructor(private http: HttpClient) { }
 
   getData(): Observable<Profile> {
-    return this.http.get<Profile>("http://localhost:4200/data/fullstack.json");
+    return this.http.get<Profile>("/data/fullstack.json");
   }
 }
