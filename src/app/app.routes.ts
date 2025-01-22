@@ -3,19 +3,7 @@ import { Routes } from '@angular/router';
 import { GeneralService } from './service/general.service';
 
 export const routes: Routes = [
-  {
-    path: '',
-    redirectTo: ( { params}) => {
-      const gService = inject(GeneralService)
-      if (!params['role']) {
-        gService.currentRole.set("fullstack")
-        return '/about/fullstack'
-      }
-      gService.currentRole.set(params['role'])
-      return `/about/${params['role']}`
-    },
-    pathMatch: 'full'
-  },
+
   {
     path: 'about/:role',
     loadComponent: () => import('./pages/about/about.component').then(c => c.AboutComponent)
@@ -31,5 +19,18 @@ export const routes: Routes = [
   {
     path: 'experience',
     loadComponent: () => import('./pages/experience/experience.component').then(c => c.ExperienceComponent)
+  },
+  {
+    path: '',
+    redirectTo: ({ params }) => {
+      const gService = inject(GeneralService)
+      if (!params['role']) {
+        gService.currentRole.set("fullstack")
+        return '/about/fullstack'
+      }
+      gService.currentRole.set(params['role'])
+      return `/about/${params['role']}`
+    },
+    pathMatch: 'full'
   },
 ];
