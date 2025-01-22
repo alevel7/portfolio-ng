@@ -1,14 +1,17 @@
+import { inject } from '@angular/core';
 import { Routes } from '@angular/router';
+import { GeneralService } from './service/general.service';
 
 export const routes: Routes = [
   {
     path: '',
     redirectTo: ( { params}) => {
+      const gService = inject(GeneralService)
       if (!params['role']) {
-        sessionStorage.setItem("role", "fullstack")
+        gService.currentRole.set("fullstack")
         return '/about/fullstack'
       }
-      sessionStorage.setItem("role", params['role'])
+      gService.currentRole.set(params['role'])
       return `/about/${params['role']}`
     },
     pathMatch: 'full'
