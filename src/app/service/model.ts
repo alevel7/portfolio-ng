@@ -9,6 +9,8 @@ export interface Profile {
   projects:   Project[];
   experience: Experience[];
   skills:     Skills;
+  fskill:     string;
+  bskill:     string;
 }
 
 export interface Experience {

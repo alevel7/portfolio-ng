@@ -13,7 +13,7 @@
       alt="">
 
     <nav class="grid grid-cols-1 grid-rows-3 md:flex md:items-center gap-4 md:gap-5 ">
-      <a routerLink="/about" routerLinkActive="text-white" (click)="showMenu.set(!showMenu())">About</a>
+      <a routerLink="/about/{{role()}}" routerLinkActive="text-white" (click)="showMenu.set(!showMenu())">About</a>
       <a routerLink="/portfolio"  routerLinkActive="text-white" (click)="showMenu.set(!showMenu())">Portfolio</a>
       <a routerLink="/contact" routerLinkActive="text-white" (click)="showMenu.set(!showMenu())">Contact</a>
       <a routerLink="/experience" routerLinkActive="text-white" (click)="showMenu.set(!showMenu())">Experience</a>

@@ -1,4 +1,4 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, Input, OnInit } from '@angular/core';
 import { GeneralService } from '../../service/general.service';
 import { toSignal } from '@angular/core/rxjs-interop';
 
@@ -6,9 +6,14 @@ import { toSignal } from '@angular/core/rxjs-interop';
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css'],
-  standalone:true
+  standalone: true
 })
-export class SkillsComponent{
+export class SkillsComponent {
+  @Input() role!: string | undefined;
   service = inject(GeneralService);
-  profileData = toSignal(this.service.getData());
+
+  currentRole = this.role ?? this.service.currentRole()
+
+  profile = this.service.getData(this.currentRole as string)
+  profileData = toSignal(this.profile);
 }

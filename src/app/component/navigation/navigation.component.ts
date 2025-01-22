@@ -1,6 +1,7 @@
 import { NgClass } from '@angular/common';
-import { Component, signal } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Component, effect, inject, signal } from '@angular/core';
+import { ActivatedRoute, RouterModule } from '@angular/router';
+import { GeneralService } from '../../service/general.service';
 
 @Component({
   selector: 'app-navigation',
@@ -11,4 +12,8 @@ import { RouterModule } from '@angular/router';
 })
 export class NavigationComponent {
   showMenu = signal(false);
+  activatedRoute = inject(ActivatedRoute);
+  gService = inject(GeneralService)
+  role = this.gService.currentRole
+
 }

@@ -4,6 +4,8 @@
   "email": "kazeemtaiwo@outlook.com",
   "phone": "+2348056965067",
   "address": "Lagos, Nigeria",
+  "fskill": "Angular and React Developer",
+  "bskill": "Node js, Nestjs, and Django Developer",
   "about": "A seasoned Full-Stack Developer with over 5 years of experience across consulting, health-tech, and logistics sectors. I am proficient in both relational databases—such as MySQL, Microsoft SQL Server, and PostgreSQL—as well as non-relational databases like MongoDB. My development experience includes building e-commerce platforms, company-specific dashboards, and APIs that power mobile applications.  My core programming languages are Python and JavaScript. For front-end development, I primarily work with Angular, and on the back end, I utilize Flask, Django, Node.js, and NestJS to create robust services. Known for my collaboration skills and team-oriented mindset, I am always eager to learn and continuously enhance my technical expertise.",
   "socials": {
     "github": "https://github.com/alevel7",

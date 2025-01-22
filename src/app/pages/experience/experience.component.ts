@@ -1,6 +1,7 @@
-import { AfterViewInit, Component, computed, ElementRef, inject, QueryList, Signal, ViewChildren } from '@angular/core';
+import { AfterViewInit, Component, computed, ElementRef, inject, Input, OnInit, QueryList, Signal, ViewChildren } from '@angular/core';
 import { GeneralService } from '../../service/general.service';
 import { toSignal } from '@angular/core/rxjs-interop';
+import { map, Observable, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-experience',
@@ -9,17 +10,15 @@ import { toSignal } from '@angular/core/rxjs-interop';
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.scss'
 })
-export class ExperienceComponent implements AfterViewInit {
-
+export class ExperienceComponent  {
+  @Input() role!: string | undefined;
   service = inject(GeneralService);
-  profileData = toSignal(this.service.getData());
+
+  currentRole = this.role ?? this.service.currentRole()
+
+  profile = this.service.getData(this.currentRole as string)
+  profileData = toSignal(this.profile);
   experiences = computed(() => this.profileData()?.experience);
 
   timelineItems: Signal<QueryList<ElementRef>> = ViewChildren('timelineItem');
-
-  ngAfterViewInit(): void {
-    this.timelineItems().forEach((item, index) => {
-      item.nativeElement.style.animationDelay = `${index * 0.3}s`;
-    })
-  }
 }

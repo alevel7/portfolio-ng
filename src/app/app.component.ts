@@ -10,5 +10,5 @@ import { NavigationComponent } from './component/navigation/navigation.component
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'portfolio-ng';
+  title = 'kazeem-taiwo-portfolio';
 }

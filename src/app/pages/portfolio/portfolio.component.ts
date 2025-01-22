@@ -1,7 +1,8 @@
-import { Component, DestroyRef, inject } from '@angular/core';
+import { Component, DestroyRef, inject, Input } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { Router } from '@angular/router';
 import { GeneralService } from '../../service/general.service';
+import { Observable, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-portfolio',
@@ -11,11 +12,16 @@ import { GeneralService } from '../../service/general.service';
   styleUrl: './portfolio.component.scss'
 })
 export class PortfolioComponent {
-  router = inject(Router)
-  destroyRef = inject(DestroyRef);
+  @Input() role!: string | undefined;
   service = inject(GeneralService);
 
-  profileData = toSignal(this.service.getData());
+  currentRole = this.role ?? this.service.currentRole()
+
+  profile = this.service.getData(this.currentRole as string)
+  profileData = toSignal(this.profile);
+
+  router = inject(Router)
+
 
   goto() {
     this.router.navigateByUrl('/portfolio')

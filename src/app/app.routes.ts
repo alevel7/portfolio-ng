@@ -3,11 +3,18 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'about',
+    redirectTo: ( { params}) => {
+      if (!params['role']) {
+        sessionStorage.setItem("role", "fullstack")
+        return '/about/fullstack'
+      }
+      sessionStorage.setItem("role", params['role'])
+      return `/about/${params['role']}`
+    },
     pathMatch: 'full'
   },
   {
-    path: 'about',
+    path: 'about/:role',
     loadComponent: () => import('./pages/about/about.component').then(c => c.AboutComponent)
   },
   {
