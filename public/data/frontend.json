@@ -16,14 +16,14 @@
     {
       "title": "Twikkie",
       "website": "https://twikkie.com/",
-      "screenshot": "/images/haulsight.png",
+      "screenshot": "/images/twikkie.png",
       "info": "Twikkie is a human resource management web application. It manages employees, departments, leaves, attendance, payroll, and more.",
       "techStack": "Angular | Bootstrap | Nodejs | AWS | Typescript "
     },
     {
       "title": "Safe sky",
       "website": "https://tangerine-zabaione-d6c4bd.netlify.app/",
-      "screenshot": "/images/squad.png",
+      "screenshot": "/images/safesky.png",
       "info": "Safe sky is an enterprise administrative web application used to manage flights from departure to arrival. It provides both quick and detail overview including graphical analytics of all operations. It provides real time flight details, drag and drop, creating new flight strips with on screen keyboard",
       "techStack": "Angular | Tailwind  | Angular Material | Netlify | AWS | Typescript"
     },
