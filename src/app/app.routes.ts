@@ -22,15 +22,7 @@ export const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: ({ params }) => {
-      const gService = inject(GeneralService)
-      if (!params['role']) {
-        gService.currentRole.set("fullstack")
-        return '/about/fullstack'
-      }
-      gService.currentRole.set(params['role'])
-      return `/about/${params['role']}`
-    },
+    redirectTo: 'about/frontend',
     pathMatch: 'full'
   },
 ];
